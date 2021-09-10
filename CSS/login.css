@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'Rubik', sans-serif;
+} 
+
+header {
+    background: linear-gradient(90deg, rgb(27, 21, 3),#1E4356 );
+    text-align: center;
+    padding: 20px;
+	  
+}
+header h1 {
+    color: white;
+    margin: auto;
+    
+}
+
+.center_div {
+	width: 330px;
+	height:400px;
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	background:linear-gradient(90deg, lightgreen, lightblue);
+	transform: translate(-50%, -50%);
+	box-shadow: 0 1px  6px;
+}
+#profilepic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	top: -60px;
+	left: calc( (350px - 120px)/2 );
+
+
+}
+h2{
+    margin-left:100px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    text-shadow: -2px 2px 1px #0A84c6;   
+}
+.inputbox{
+	width: calc(100% - 40px);
+	height: 30px;
+	display: block;
+	margin: auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+::placeholder{
+	letter-spacing: 2px;
+	color: black;
+}
+button{
+	width: calc(100% - 40px);
+	height: 30px;
+	display: block;
+	margin: auto;
+	color: white;
+	background-color: lightskyblue;
+	border: none;
+}
+
+.forgot-section {
+	width: calc(100% - 40px);
+	line-height: 30px;
+	display: block;
+	margin: auto;
+	text-align: right;
+	color: white;
+	background-color: dodgerblue;
+	text-transform: uppercase;
+	font-size: .8em;
+	padding-right: 20px;
+	box-sizing: border-box;
+
+
+}
+
+@media only screen and (max-width:767px) {
+    header h1 {
+        
+        font-size: 16px;
+      
+    }
+}
+
